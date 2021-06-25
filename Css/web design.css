@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+ul,li{
+    list-style-type: none;
+    
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.v_align_center{
+    align-items: center;
+}
+.justify_center{
+    justify-content: center;
+}
+
+h2{
+    color:#5b6b80;
+    font-size:32px;
+    font-weight: 600;
+}
+h3{
+    color:#5b6b80;
+    font-size:24px;
+    font-weight:500;
+
+}
+p{
+   font-size:16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+body{
+    font-family: 'Arimo',sans-serif;
+}
+/* header part css start*/
+
+.top_header{
+    background: #ee2e24;
+}
+.left_header{
+ width:25%; 
+}
+.left_header h3{
+    font-size: 18px;
+    color:#fff;
+    padding:8px 0;
+}
+.left_header h3 i{
+margin-left:15px;
+    font-size:15px;
+}
+.right_header{
+    width:75%;
+}
+.right_header marquee{
+ color:#fff; 
+}
+
+
+/* header part css end*/
+
+/* manu part css start*/
+#main_menu{
+    background:#f8f9fa;
+    box-shadow: 0 0 3px 1px #000;
+}
+.logo{
+  width:25%;
+    padding:10px 0;
+    box-shadow:0 0 3px 5px #000;
+}
+.menu{
+    width:75%;
+}
+.menu ul {
+    float:right;
+}
+.menu ul li{
+    float:left;
+    position: relative;
+}
+.menu ul li a{
+    font-weight:400;
+    font-size: 19px;
+    text-transform: capitalize;
+    color:#444;
+    padding:0 20px;
+    display:block;
+    
+}
+.menu >ul >li:last-child a{
+    background-color: red;
+}
+.menu ul li a:hover{
+    color:red;
+}
+.menu ul li ul {
+position: absolute;
+    display: none;
+    background-color:red;
+    transition: .5s;
+    margin-top:-40px;
+}
+.menu ul li:hover ul{
+    display: block;
+    margin-top:0;
+}
+.menu ul li ul li{
+    width:100%;
+}
+.menu ul li ul li a{
+    text-transform: capitalize;
+    background-color:#fff;
+padding:10px;    
+}
+/* manu part css end*/
+/* banar part start*/
+.banar_items{
+    height:600px;
+    background-position:center !important;
+    background-size: cover !important;
+    padding:0 0 0 20px;
+}
+
+/* banar part end*/
+/* about part start*/
+
+
+.about{
+    width:auto;
+    padding:10px 20px;
+box-shadow:0 0 3px 2px;     
+    font-size: 18px;
+        
+}
+/* about part end*/
+.upcomming{
+    box-shadow:0 0 2px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding:20px 0;
+}
+.batton{
+    text-align: center;
+    padding: 20px 0;
+}
+.batton a{
+    
+    padding:15px 30px 20px 60px;
+    color:#2196f3;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size:24px;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: black;
+    
+}
+.batton a:hover{
+    color:#255784;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3, 0 0 #2196f3;
+    
+    
+}
+/* course css start*/
+.course{
+    padding:30px;
+}
+.one{
+    
+}
+ .grapic{
+   width:45%; 
+    background-color:whitesmoke;
+     margin: 10px;
+     padding:10px 10px 10px 10px; 
+     box-shadow:0 0 5px;
+     height:auto;
+     display: block;
+     float: left;
+}
+.two{
+  width:60%;
+  float:left;
+}
+.two a{
+    
+    background-color:firebrick;
+    padding:10px 25px;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size:16px;
+    text-decoration: none;
+    border-radius:20px;
+}
+
+ 
+
+.one  grapic two four img{
+    float:right;
+    width:40%;
+}
+.web{
+    width:45%; 
+    background-color:whitesmoke;
+     margin: 10px;
+     padding:10px 10px 10px 10px; 
+     box-shadow:0 0 5px;
+     display: block; 
+    float:left;
+}
+.three{
+  width:60%;
+    float: left;
+}
+
+.three a{
+    background-color:firebrick;
+    padding:10px 25px;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size:16px;
+    text-decoration: none;
+    border-radius:20px;
+}
+.one web three five img{
+    width:40%;
+    float:right;
+}
+
+/* course css end*/
+
+.galary{
+    float:left;
+    padding:20px 20px;
+    box-shadow:0 0 5px #1C0817;
+}
+
+/* picture css part start*/
+.picture{
+    margin:10px 10px;
+    width:1200px;
+    display: flex;
+    margin:5px 10px 10px 10px;
+}
+.left_picture{
+    width:33.3%;
+    float: left;
+    margin:5px;
+}
+.left_picture img{
+    width:400px;
+}
+
+.middle_picture{
+    width:33.4%;
+    float: left;
+    margin:5px;
+}
+
+
+.middle_picture img{
+    width:400px;
+}
+.right_picture{
+   width:33.3%;
+    float:left;
+    margin:5px;
+}
+.right_picture img{
+    width:400px;
+    
+}
+/* picture css part end*/
+.contact{
+    margin:30px;
+}
+/* logo part start*/
+.last{
+    background-color: antiquewhite;
+    display: flex;
+}
+.logo_partone{
+  width:33%;
+    box-shadow:0 0 5px black;
+    margin:10px;
+}
+.logo_partone img{
+vertical-align: middle !important;
+}
+
+.logo_parttwo{
+   width:33%; 
+    float: left;
+        box-shadow:0 0 5px black;
+    margin:10px;
+
+}
+.logo_partthree{
+    width:33%;
+       box-shadow:0 0 5px black;
+float: left;
+    margin:10px;
+}
+.logo_partthree i{
+    font-size:80px; 
+}
+.logo_partthree i:hover{
+    
+    color:#255784;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px red,0 0 40px red, 0 0 80px red, 0 0 red;
+}
+
+/* logo part end*/
+
+
